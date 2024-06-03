@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Challenge</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email" name="email" placeholder="user@example.com" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" />
+      </div>
+
+      <div>
+        <label for="github-username">Github Username</label>
+        <input type="text" name="github-username" />
+      </div>
+
+      <fieldset>
+        <legend>Plan</legend>
+
+        <div>
+          <input type="checkbox" name="plan" id="free" />
+          <label for="free">Free</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="plan" id="pro" />
+          <label for="pro">Pro</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="plan" id="enterprise" />
+          <label for="enterprise">Enterprise</label>
+        </div>
+      </fieldset>
+
+      <div>
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <label for="remember-me">Remember Me</label>
+      </div>
+
+      <button type="submit">Sign up</button>
+    </form>
+  </body>
+</html>
